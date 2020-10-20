@@ -1,0 +1,41 @@
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans"), local("NotoSans"), url("../fonts/noto-sans-v11-latin-regular.woff2") format("woff2"), url("../fonts/noto-sans-v11-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  font-family: "Noto Sans";
+}
+
+body {
+  overflow: hidden;
+  background: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+body img {
+  width: 25%;
+}
+
+canvas {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=styles.css.map */
